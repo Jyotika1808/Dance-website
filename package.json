@@ -1,0 +1,17 @@
+{
+  "name": "jyotika-dance-academy",
+  "version": "1.0.0",
+  "description": "this is a popular dance academy in this city",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jyotika",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "pug": "^3.0.2"
+  }
+}

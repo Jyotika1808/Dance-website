@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Indie+Flower&family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Indie+Flower&family=PT+Serif:ital@1&family=Sansita+Swashed:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Indie+Flower&family=PT+Serif:ital@1&family=Prata&family=Sansita+Swashed:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Indie+Flower&family=Noto+Serif&family=PT+Serif:ital@1&family=Prata&family=Sansita+Swashed:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    margin-right: 80px;
+    /* padding-left: 2px; */
+}
+#logo img{
+    
+    height: 70px;
+    border-radius: 20px;
+    width: 90px;
+    filter: invert();
+}
+
+#navbar  {
+    /* background-color: rgba(11, 12, 12, 0.952); */
+    padding: 12px 14px;
+    height: 90px;
+    font-weight: bold;
+    background-color:rgb(39, 38, 38) ;
+    font-family: 'PT Serif', serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+   padding: 13px 30px;
+   text-decoration: none;
+   color: rgba(238, 120, 120, 0.74);
+   font-size: 30px;
+}
+#navbar li a:hover{
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    font-size: 30px;    
+}
+#navbar li a:active{
+    color: yellow;
+}
+
+
+#introsec{
+    height: 400px;
+     padding-bottom: 50px;
+     padding-left: 3px;
+      background-color: blue;
+      background: center/cover no-repeat url('static/dnc.jpg');
+      color: white;
+      opacity: 0.9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Sansita Swashed', cursive;
+      font-size: 60px;
+      font-weight: bold;
+      
+    }
+    #introsec:hover{
+        height: 400px;
+        padding-bottom: 50px;
+        padding-left: 3px;
+        background-color: blue;
+        background: center/cover no-repeat url('static/dnc.jpg');
+        /* color: rgb(196, 238, 12); */
+        color: rgb(191, 216, 52);
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 60px;
+        font-weight: bold;
+        
+    }
+    #introsec div.small{
+        font-size: 30px;
+        color: rgb(14, 226, 226);
+        /* font-family: 'PT Serif', serif; */
+        font-weight: normal;
+        /* height:200px */
+    }
+    #introsec div.small:hover{
+        font-size: 30px;
+        color: rgb(236, 232, 232);
+        /* font-family: 'PT Serif', serif; */
+        font-weight: normal;
+        /* color: rgb(196, 238, 12); */
+    }
+    
+    #sponsorsec {
+        height: 300px;
+        background-color: rgb(233, 104, 104);
+    }
+    
+    #sponsorsec h3{
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(39, 2, 61);
+        font-size: 50px;
+        font-family: 'Prata', serif;
+        font-weight: bolder;
+    }
+    #sponsorsec h3:hover{
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(228, 13, 13);
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: 'Prata', serif;
+        text-decoration: underline;
+    }
+    #sponsors{
+        height: 180px;
+        margin: auto;
+        max-width: 1000px;
+    }
+    .spimg{
+        border-radius: 15px;
+        height: 120;
+        margin: 20px;
+        padding-top: 25px;
+        filter: invert();
+        align-items: center;
+        margin-left: 150px;
+    }
+    #mission {
+        height: 300px;
+        align-items: center;
+        /* display: flex; */
+        justify-content: center;
+        background-color: rgb(178, 170, 226);
+        /* width: 70%; */
+        margin:  auto
+        
+        /* padding-left: 150px; */
+    }
+    
+    #mission h2{
+        text-align: center;
+        padding-left: 90px;
+        padding-top: 20px;
+        color: rgb(15, 14, 14);
+        font-size: 60px;
+        font-family: 'Prata', serif;
+        /* font-family: 'PT Serif', serif; */
+        font-weight: bolder;
+        
+        
+    }
+    #mission h2:hover{
+        text-align: center;
+        padding-left: 90px;
+        padding-top: 20px;
+        color: rgb(207, 14, 14);
+        font-size: 60px;
+        font-family: 'Prata', serif;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    
+    .card{
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 180px;
+        /* padding-left: 20px; */
+        margin: auto;
+        
+        margin: 25px 130px;
+        height: 150px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 10px;
+        display: inline-block;
+        background-color: rgb(24, 2, 121);
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
+        padding-top: 10px;
+    }  
+    .card:hover{
+        background-color:rgb(71, 71, 71) ;
+    }
+    
+    .card h3{    
+        text-align: center;
+        
+        font-family: 'Prata', serif;
+        color: rgb(219, 223, 30);
+        font-size: 15px;
+        padding-top: 5px;
+        /* margin: 0px 12px; */
+    }
+    
+    .card h3:hover{    
+        text-align: center;
+        font-family: 'Prata', serif;
+        color: rgb(233, 220, 220);
+        font-size: 15px;
+        /* font-family: 'Sansita Swashed', cursive; */
+        padding-top: 5px;
+        /* margin: 0px 12px; */
+    }
+
+    
+    .card-img{
+        height: 55px;
+        /* padding: 0px 20px; */
+        align-items: center;
+        margin: auto;
+        padding-left: 60px;
+        padding-top: 5px;
+    }
+    .card-img img{
+        height: inherit;
+        border-radius: 12px;
+        /* border: 2px solid rgb(235, 228, 228); */
+        padding-left: 5px;
+        /* padding-top: 10px; */
+        filter: invert();
+        /* border-radius: 12px; */
+       margin-top: 2px;
+    } 
+
+    #footer {
+        height: 80px;
+        background-color: rgb(12, 12, 12);
+        color: white;
+        cursor: pointer;
+        display: flex;
+        font-size: 18px;
+        justify-content: center;
+        font-family: 'PT Serif', serif;
+        align-items: center;
+}
+#footer:hover{
+    color: rgb(231, 135, 8);
+}
+
+.contact{
+    height: 800px;
+    padding-top: 20px;
+    padding-left: 3px;
+     /* background-color: blue; */
+     flex-direction: column;
+     background: center/cover no-repeat url('static/con1.jpg');
+     /* opacity: 0.9; */
+     display: flex;
+     align-items: center;
+     filter: contrast();
+     /* justify-content: center; */
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    } 
+    
+    .contact h2{
+        color: rgb(140, 121, 209);
+        justify-content: center;
+      font-family: 'Prata', serif;
+      font-size: 90px;
+      opacity: 1;
+      font-weight: bold;
+    }
+    .contact h2:hover   {
+        color: rgb(221, 165, 165);
+      font-family: 'Prata', serif;
+      font-size: 90px;
+      font-weight: bold;
+      text-decoration: underline;   
+    }
+    .contact form{
+        text-align: center;
+        justify-content: center;
+       
+    }
+    .myform{
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-family: 'Sansita Swashed', cursive;
+       padding-top: 30px;
+    }
+    .myinput{
+        height: 40px;
+        width: 600px;
+        /* position: relative; */
+        padding: 6px;
+        margin: 8px;
+        font-size: 17px;
+        border: 2px solid black;
+        border-radius: 17px;
+        outline: none;
+        align-items: center;
+    }
+    .myinput:hover{
+        cursor: pointer;
+    }
+    .btn{
+        border: 3px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: rgb(12, 12, 12);
+        color: white;
+        outline: none;
+        cursor: pointer;
+        padding-top: 15px;
+        padding: 15px 16px;
+        font-weight: bolder;
+        height: 60px;
+        font-family: 'Prata', serif;
+        width: 140px;
+        text-align: center;
+        
+    }
+    .btn:hover{
+        border: 3px solid rgb(207, 25, 25);
+        padding-top: 15px;
+        outline: none;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: rgb(194, 180, 180);
+        color: rgb(5, 0, 0);
+        cursor: pointer;
+        font-family: 'Prata', serif;
+        padding: 15px 16px;
+        height: 60px;
+        width: 140px;
+        font-weight:bolder;
+        cursor: pointer;
+        text-align: center;
+    }
+    .myinput:placeholder-shown{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color:rgb(5, 8, 146);
+        font-size: 25px;      
+    }
+    .about {
+      background: center/cover no-repeat  url('static/about.jpg');
+      height: 100%;
+      filter:invert();
+      width: 100%;
+      filter: blur();
+      padding-top: 70px;
+      padding-left: 3px;
+      flex-direction: column;
+        display: flex;
+       align-items: center;
+       /* filter: contrast(); */
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    } 
+    .about h2{
+        text-align: center;
+        font-size: 120px;
+        font-family: 'Prata', serif;
+        color: rgb(32, 3, 100);
+        font-weight: bold;
+    }
+    .about h2:hover{
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Prata', serif;
+        font-size: 120px;
+        color: rgb(212, 23, 23);
+        text-decoration: underline;
+    }
+    .about p{
+        padding-top: 50px;
+        color: rgb(6, 6, 7);
+        padding-left: 60px;
+        padding-right: 60px;
+        font-family: 'Noto Serif', serif;
+        font-size: 23px;
+        font-weight: bolder;
+        margin: 10px 12px;
+    }
+    .services{
+         
+      background: center/cover no-repeat  url('static/serv.jpg');
+       height: 100%;
+       filter:invert();
+      width: 100%;
+      filter: blur();
+      padding-top: 60px;
+      padding-left: 3px;
+      flex-direction: column;
+      display: flex;
+       align-items: center;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .services h2{
+        text-align: center;
+        font-family: 'Prata', serif;
+        font-size: 120px;
+        color: rgb(0, 0, 3);
+        font-weight: bold;
+    }
+    .services h2:hover{
+        text-align: center;
+        font-size: 120px;
+        font-family: 'Prata', serif;
+        color: rgb(199, 10, 10);
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .services p{
+        padding-top: 50px;
+        color: rgb(34, 2, 95);
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Noto Serif', serif;
+        margin: 10px 12px
+    }
+
+  .b{
+      justify-content: space-around;
+      display: inline;
+    } 
+
+   .re{
+       
+       border: 3px solid black;
+       border-radius: 10px;
+       font-size: 20px;
+       background-color: rgb(12, 12, 12);
+       color: white;
+       outline: none;
+       cursor: pointer;
+       padding-top: 15px;
+       padding: 15px 16px;
+       font-weight: bolder;
+       height: 60px;
+       font-family: 'Prata', serif;
+       width: 140px;
+       text-align: center;
+    } 
+
+    .re:hover{
+        border: 3px solid rgb(207, 25, 25);
+        padding-top: 15px;
+        outline: none;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: rgb(194, 180, 180);
+        color: rgb(5, 0, 0);
+        cursor: pointer;
+        font-family: 'Prata', serif;
+        padding: 15px 16px;
+        padding-left: 10px;
+
+        height: 60px;
+        width: 140px;
+        font-weight:bolder;
+        cursor: pointer;
+        text-align: center;
+    }
