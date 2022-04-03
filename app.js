@@ -33,7 +33,7 @@ app.use(express.urlencoded())
 app.set('view engine','pug')
 app.set('views',path.join(__dirname,'views'))
 
-app.get('/',(req,res)=>{
+app.get('/',(req,res)=>{  
     // send variable
     const con = "This is the best website on internet."
     const params= {}
